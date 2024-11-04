@@ -20,7 +20,7 @@ printName("ghanim");
  */
 function printAge(birthYear) {
   const currentYear = 2024;
-  console.log(`${currentYear - birthYear}`);
+  console.log(currentYear - birthYear);
 }
 
 printAge(2001);
@@ -37,17 +37,17 @@ printAge(2001);
  */
 
 function printHello(name, language) {
-  if (language === en) {
+  if (language === "en") {
     console.log(`Hello ${name}`);
   }
 
-  if (language === es) {
+  if (language === "es") {
     console.log(`Hola ${name}`);
   }
-  if (language === fr) {
+  if (language === "fr") {
     console.log(`Bonjour ${name}`);
   }
-  if (language === tr) {
+  if (language === "tr") {
     console.log(`Merhaba ${name}`);
   }
 }
@@ -61,9 +61,9 @@ function printHello(name, language) {
 
 function printMax(num1, num2) {
   if (num1 > num2) {
-    console.log(`${num1}`);
+    console.log(num1);
   } else {
-    console.log(`${num2}`);
+    console.log(num2);
   }
 }
 
